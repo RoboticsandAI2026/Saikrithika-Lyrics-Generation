@@ -1,12 +1,10 @@
 streamlit==1.48.0
 pyttsx3==2.90
-librosa==0.11.0
-aifc
-sunau
+git+https://github.com/librosa/librosa.git
+soundfile==0.12.1
 numpy==2.0.1
 torch==2.6.0
 tqdm==4.66.1
 pandas==2.2.3
 matplotlib==3.10.0
 nltk==3.9.0
-soundfile==0.12.1
